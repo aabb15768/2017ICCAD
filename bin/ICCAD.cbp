@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="ICCAD" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/shtseng/ICCAD2017/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/shtseng/ICCAD2017/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="net_open_finder">
+         <Option output="/home/shtseng/ICCAD2017/bin/net_open_finder" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/shtseng/ICCAD2017/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/shtseng/ICCAD2017/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 net_open_finder" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="net_open_finder/fast">
+         <Option output="/home/shtseng/ICCAD2017/bin/net_open_finder" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/shtseng/ICCAD2017/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/shtseng/ICCAD2017/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 net_open_finder/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/shtseng/ICCAD2017/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ICCAD">
+         <Option output="/home/shtseng/ICCAD2017/bin/libICCAD.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/shtseng/ICCAD2017/bin" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/shtseng/ICCAD2017/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 ICCAD" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="ICCAD/fast">
+         <Option output="/home/shtseng/ICCAD2017/bin/libICCAD.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/shtseng/ICCAD2017/bin" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/shtseng/ICCAD2017/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 ICCAD/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/shtseng/ICCAD2017/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/shtseng/ICCAD2017/include/graph.h">
+         <Option target="ICCAD"/>
+      </Unit>
+      <Unit filename="/home/shtseng/ICCAD2017/include/net_open_finder.h">
+         <Option target="ICCAD"/>
+      </Unit>
+      <Unit filename="/home/shtseng/ICCAD2017/src/graph.cpp">
+         <Option target="ICCAD"/>
+      </Unit>
+      <Unit filename="/home/shtseng/ICCAD2017/src/main.cpp">
+         <Option target="net_open_finder"/>
+      </Unit>
+      <Unit filename="/home/shtseng/ICCAD2017/src/net_open_finder.cpp">
+         <Option target="ICCAD"/>
+      </Unit>
+      <Unit filename="/home/shtseng/ICCAD2017/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

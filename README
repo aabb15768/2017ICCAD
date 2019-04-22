@@ -1,0 +1,23 @@
+This is a tool for generating paths that is able connect all the routed shapes
+Author: 曾士紘 李彥均
+2017/6/20
+
+1. how to install
+cd bin/
+cmake ..
+make
+
+*note that this package requires c+11
+
+2. how to execute
+./bin/net_open_finder input/case<index>
+
+3. directory
+bin/	   executable binary
+inputs/  input data 
+outputs/ output result
+include/ header files
+src/ 	   cpp files
+
+4. verify
+./bin/eval input/case<index> output/case<index>.out
